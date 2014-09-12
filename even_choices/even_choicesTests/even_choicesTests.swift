@@ -25,7 +25,7 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 import UIKit
 import XCTest
 
-class first_helloTests: XCTestCase {
+class even_choicesTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
