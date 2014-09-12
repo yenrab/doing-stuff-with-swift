@@ -28,7 +28,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let aNumber = 5;
+        let remainder = aNumber % 2;
+        if(aNumber == 0){
+            println("0 is neither even nor odd.");
+        }
+        else if (remainder == 0){
+            println("\(aNumber) is even.");
+        }
+        else{
+            println("\(aNumber) is odd.");
+        }
     }
 
     override func didReceiveMemoryWarning() {
