@@ -10,6 +10,10 @@ is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
 
+@IBOutlet weak var showIsFractionalLabel: UILabel!
+@IBOutlet weak var showUserLabel: UILabel!
+@IBOutlet weak var showUserLabel: UILabel!
+@IBOutlet weak var showUserLabel: UILabel!
 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
@@ -25,10 +29,13 @@ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var showUserLabel: UILabel!
+    
+    @IBAction func sayStuff(sender: AnyObject) {
+        showUserLabel.text = "We are doing stuff with Swift!"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        println("We are doing stuff with Swift!");
     }
 
     override func didReceiveMemoryWarning() {

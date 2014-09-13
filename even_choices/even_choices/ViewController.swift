@@ -10,6 +10,7 @@ is furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be
 included in all copies or substantial portions of the Software.
 
+@IBOutlet weak var showUserLabel: UILabel!
 
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
@@ -26,19 +27,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        let aNumber = 5;
-        let remainder = aNumber % 2;
-        if(aNumber == 0){
-            println("0 is neither even nor odd.");
+    @IBOutlet weak var showIsEvenLabel: UILabel!
+    
+    @IBAction func evenOrOdd(sender: AnyObject) {
+        let aNumber = 5
+        let remainder = aNumber % 2
+        if aNumber == 0 {
+            showIsEvenLabel.text = "0 is neither even nor odd."
         }
-        else if (remainder == 0){
-            println("\(aNumber) is even.");
+        else if remainder == 0{
+            showIsEvenLabel.text = "\(aNumber) is even."
         }
         else{
-            println("\(aNumber) is odd.");
+            showIsEvenLabel.text = "\(aNumber) is odd."
         }
+
+    }
+    
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
     }
 
     override func didReceiveMemoryWarning() {
