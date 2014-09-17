@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var firstNumberInput: UITextField!
     @IBOutlet weak var secondNumberInput: UITextField!
-    @IBOutlet weak var productInput: UILabel!
+    @IBOutlet weak var productLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         let aNumber = firstNumberInput.text.toInt()!
         let anotherNumber = secondNumberInput.text.toInt()!
         let product = multiply(aNumber,secondNumber: anotherNumber)
-        productInput.text = "= \(product)"
+        productLabel.text = "= \(product)"
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
