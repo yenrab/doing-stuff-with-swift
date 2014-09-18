@@ -10,16 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
     
+   
+    @IBOutlet weak var showUserLabel: UILabel!
+   
+    
     @IBAction func multiplyThem(sender: AnyObject) {
+        
+        let product = multiply(3, secondNum: 4)
+        showUserLabel.text = "3 * 4 = \(product)"
     }
-    @IBOutlet weak var firstNumber: UITextField!
+    
     func multiply(firstNum:Int, secondNum:Int) -> Int{
         return firstNum * secondNum
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let product = multiply(3, secondNum: 4)
-        showUserLabel.text = "3 * 4 = \(product)"
     }
 
     override func didReceiveMemoryWarning() {

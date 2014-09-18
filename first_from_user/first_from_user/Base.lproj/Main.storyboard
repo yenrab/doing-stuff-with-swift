@@ -41,9 +41,9 @@
                                     <action selector="multiplyThem:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gNM-5N-zNE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="= 6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EY0-0R-L29">
-                                <rect key="frame" x="220" y="147" width="338" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="= 6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CGH-Vc-pXY">
+                                <rect key="frame" x="225" y="147" width="261" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -52,7 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="firstNumberInput" destination="LRk-aw-hLp" id="ec7-lS-nQu"/>
-                        <outlet property="productLabel" destination="EY0-0R-L29" id="IEv-34-r00"/>
+                        <outlet property="productLabel" destination="CGH-Vc-pXY" id="NYa-wc-ilF"/>
                         <outlet property="secondNumberInput" destination="Ryv-bX-5yQ" id="v3V-Ya-ieB"/>
                     </connections>
                 </viewController>
