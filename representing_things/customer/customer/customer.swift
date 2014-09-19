@@ -12,7 +12,7 @@ struct ClothingCustomer:Printable{
     var name:String
     var age:Int
     var inseam:Double
-    var description: String {
+    var description:String {
         return "\nname: \(self.name)\n age: \(self.age)\n inseam: \(self.inseam)\n"
     }
 }
