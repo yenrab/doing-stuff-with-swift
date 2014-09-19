@@ -104,8 +104,21 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Customers will be displayed here." translatesAutoresizingMaskIntoConstraints="NO" id="n4S-ut-IDJ">
                                 <rect key="frame" x="47" y="302" width="406" height="234"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="234" id="58N-l1-Y6q"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="58N-l1-Y6q"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="58N-l1-Y6q"/>
+                                    </mask>
+                                </variation>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -117,7 +130,6 @@
                             <constraint firstItem="6r2-cm-7HA" firstAttribute="trailing" secondItem="aXi-cg-Bft" secondAttribute="trailing" id="8ZM-fU-clo"/>
                             <constraint firstItem="odk-zU-qPT" firstAttribute="top" secondItem="qO1-Sz-EFy" secondAttribute="bottom" constant="46" id="9Gn-7V-twx"/>
                             <constraint firstItem="aXi-cg-Bft" firstAttribute="trailing" secondItem="CVr-h7-RN7" secondAttribute="trailing" id="ABu-ZT-Vda"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="n4S-ut-IDJ" secondAttribute="bottom" constant="64" id="BIy-n1-EfW"/>
                             <constraint firstItem="L4u-sE-TYf" firstAttribute="top" secondItem="0Op-ug-QEL" secondAttribute="bottom" constant="17" id="BJW-Rn-4jX"/>
                             <constraint firstItem="msF-X2-mXy" firstAttribute="centerX" secondItem="odk-zU-qPT" secondAttribute="centerX" id="BhL-2Y-r0w"/>
                             <constraint firstItem="n4S-ut-IDJ" firstAttribute="top" secondItem="odk-zU-qPT" secondAttribute="bottom" constant="28" id="Jq3-WA-tX7"/>
@@ -166,7 +178,6 @@
                                 <exclude reference="5Bw-JL-ihm"/>
                                 <exclude reference="Jq3-WA-tX7"/>
                                 <exclude reference="fdV-MV-j3X"/>
-                                <exclude reference="BIy-n1-EfW"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -194,7 +205,6 @@
                                 <include reference="5Bw-JL-ihm"/>
                                 <include reference="Jq3-WA-tX7"/>
                                 <include reference="fdV-MV-j3X"/>
-                                <include reference="BIy-n1-EfW"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
