@@ -1,6 +1,6 @@
 //
-//  bad_groupTests.swift
-//  bad_groupTests
+//  write_to_fileTests.swift
+//  write_to_fileTests
 //
 //  Created by Lee Barney on 9/22/14.
 //  Copyright (c) 2014 Lee Barney. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import XCTest
 
-class bad_groupTests: XCTestCase {
+class write_to_fileTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

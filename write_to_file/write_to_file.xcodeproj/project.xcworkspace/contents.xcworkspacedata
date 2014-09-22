@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:bad_group.xcodeproj">
+      location = "self:write_to_file.xcodeproj">
    </FileRef>
 </Workspace>

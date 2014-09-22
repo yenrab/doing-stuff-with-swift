@@ -29,7 +29,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odk-zU-qPT">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odk-zU-qPT">
                                 <rect key="frame" x="277" y="244" width="46" height="30"/>
                                 <state key="normal" title="Create">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -41,7 +41,7 @@
                                     <action selector="createCustomer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DOz-HH-glJ"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Op-ug-QEL">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Op-ug-QEL">
                                 <rect key="frame" x="104" y="74" width="361" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -49,7 +49,7 @@
                                     <rect key="frame" x="104" y="74" width="329" height="30"/>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L4u-sE-TYf">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L4u-sE-TYf">
                                 <rect key="frame" x="104" y="121" width="97" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="97" id="ZNd-ZZ-PAv"/>
@@ -67,7 +67,7 @@
                                     </mask>
                                 </variation>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qO1-Sz-EFy">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qO1-Sz-EFy">
                                 <rect key="frame" x="104" y="168" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -78,7 +78,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create Customers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msF-X2-mXy">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Create Customers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msF-X2-mXy">
                                 <rect key="frame" x="230" y="28" width="140" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="jUR-R5-SMH"/>
@@ -101,7 +101,7 @@
                                     </mask>
                                 </variation>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="Customers will be displayed here." translatesAutoresizingMaskIntoConstraints="NO" id="n4S-ut-IDJ">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" editable="NO" text="Customers will be displayed here." translatesAutoresizingMaskIntoConstraints="NO" id="n4S-ut-IDJ">
                                 <rect key="frame" x="47" y="302" width="406" height="234"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
@@ -160,11 +160,6 @@
                                 <exclude reference="XVC-Z9-erH"/>
                                 <exclude reference="eG5-lW-1Lv"/>
                                 <exclude reference="n5G-eG-eL7"/>
-                                <exclude reference="2Lb-sn-kZA"/>
-                                <exclude reference="BhL-2Y-r0w"/>
-                                <exclude reference="boE-dC-VhQ"/>
-                                <exclude reference="egh-od-Pd7"/>
-                                <exclude reference="wdX-L7-Wdi"/>
                                 <exclude reference="ldW-za-Lk8"/>
                                 <exclude reference="BJW-Rn-4jX"/>
                                 <exclude reference="rUu-Lt-wvw"/>
@@ -173,11 +168,16 @@
                                 <exclude reference="w5R-bv-UsU"/>
                                 <exclude reference="pEN-gM-K3B"/>
                                 <exclude reference="tfN-11-EZQ"/>
-                                <exclude reference="9Gn-7V-twx"/>
-                                <exclude reference="cf2-go-5gS"/>
+                                <exclude reference="2Lb-sn-kZA"/>
+                                <exclude reference="BhL-2Y-r0w"/>
+                                <exclude reference="boE-dC-VhQ"/>
+                                <exclude reference="egh-od-Pd7"/>
+                                <exclude reference="wdX-L7-Wdi"/>
                                 <exclude reference="5Bw-JL-ihm"/>
                                 <exclude reference="Jq3-WA-tX7"/>
                                 <exclude reference="fdV-MV-j3X"/>
+                                <exclude reference="9Gn-7V-twx"/>
+                                <exclude reference="cf2-go-5gS"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -188,8 +188,6 @@
                                 <include reference="RzT-fc-JlN"/>
                                 <include reference="XVC-Z9-erH"/>
                                 <include reference="eG5-lW-1Lv"/>
-                                <include reference="BhL-2Y-r0w"/>
-                                <include reference="egh-od-Pd7"/>
                                 <exclude reference="ABu-ZT-Vda"/>
                                 <exclude reference="WtY-FN-6k7"/>
                                 <include reference="ldW-za-Lk8"/>
@@ -200,21 +198,23 @@
                                 <include reference="w5R-bv-UsU"/>
                                 <include reference="pEN-gM-K3B"/>
                                 <include reference="tfN-11-EZQ"/>
-                                <include reference="9Gn-7V-twx"/>
-                                <include reference="cf2-go-5gS"/>
+                                <include reference="BhL-2Y-r0w"/>
+                                <include reference="egh-od-Pd7"/>
                                 <include reference="5Bw-JL-ihm"/>
                                 <include reference="Jq3-WA-tX7"/>
                                 <include reference="fdV-MV-j3X"/>
+                                <include reference="9Gn-7V-twx"/>
+                                <include reference="cf2-go-5gS"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
                                 <include reference="n5G-eG-eL7"/>
+                                <exclude reference="ABu-ZT-Vda"/>
+                                <exclude reference="WtY-FN-6k7"/>
                                 <include reference="2Lb-sn-kZA"/>
                                 <include reference="boE-dC-VhQ"/>
                                 <include reference="wdX-L7-Wdi"/>
-                                <exclude reference="ABu-ZT-Vda"/>
-                                <exclude reference="WtY-FN-6k7"/>
                             </mask>
                         </variation>
                     </view>

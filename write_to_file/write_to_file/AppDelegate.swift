@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  bad_group
+//  write_to_file
 //
 //  Created by Lee Barney on 9/22/14.
 //  Copyright (c) 2014 Lee Barney. All rights reserved.
