@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A361c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -22,27 +23,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="36" y="99" width="51" height="21"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inseam:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klj-yi-t2q">
                                 <rect key="frame" x="21" y="172" width="61" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="26" y="188" width="61" height="21"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXJ-8F-Kmu">
                                 <rect key="frame" x="277" y="244" width="46" height="30"/>
                                 <state key="normal" title="Add Customer">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="26" y="260" width="100" height="30"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="47" y="248" width="46" height="30"/>
                                 </variation>
@@ -54,9 +46,6 @@
                                 <rect key="frame" x="104" y="74" width="361" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="109" y="90" width="219" height="30"/>
-                                </variation>
                                 <variation key="heightClass=regular-widthClass=regular" ambiguous="YES" misplaced="YES">
                                     <rect key="frame" x="104" y="74" width="329" height="30"/>
                                 </variation>
@@ -78,35 +67,23 @@
                                         <include reference="ftu-f1-DwT"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="109" y="137" width="97" height="30"/>
-                                </variation>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gNW-NC-LKN">
                                 <rect key="frame" x="104" y="168" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="109" y="184" width="97" height="30"/>
-                                </variation>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYc-bb-0io">
                                 <rect key="frame" x="47" y="125" width="35" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="52" y="141" width="35" height="21"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBD-4z-6Hz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Save Customers">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="134" y="260" width="113" height="30"/>
-                                </variation>
                                 <connections>
                                     <action selector="writeCustomersToFile:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Kl4-DR-TzS"/>
                                 </connections>
@@ -124,8 +101,7 @@
                                         <exclude reference="3CW-95-lUS"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="26" y="315" width="348" height="185"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <include reference="3CW-95-lUS"/>
                                     </mask>
@@ -136,9 +112,6 @@
                                 <state key="normal" title="Load Customers">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="255" y="260" width="114" height="30"/>
-                                </variation>
                                 <connections>
                                     <action selector="readCustomersFromFile:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qzx-qO-RB9"/>
                                 </connections>
@@ -157,9 +130,6 @@
                                         <exclude reference="QgA-KY-40u"/>
                                         <exclude reference="biH-mr-TZU"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="130" y="28" width="140" height="21"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="330" y="28" width="140" height="21"/>
@@ -214,15 +184,19 @@
                                 <exclude reference="ujT-jh-Ibo"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="VcP-bH-wJ0"/>
+                                <exclude reference="pow-Ro-Pcy"/>
+                                <exclude reference="sef-sM-mjb"/>
+                                <exclude reference="z1v-l5-Iae"/>
                                 <exclude reference="UX5-GL-U31"/>
+                                <exclude reference="KoN-r2-bHf"/>
+                                <exclude reference="LXH-0b-tbI"/>
                                 <exclude reference="3q2-1c-Lg1"/>
                                 <exclude reference="JZr-xd-NQI"/>
                                 <exclude reference="WDp-vI-7QS"/>
                                 <exclude reference="fJh-l3-Kte"/>
                                 <exclude reference="hzr-OT-3q1"/>
                                 <exclude reference="dHF-jZ-fWh"/>
-                                <exclude reference="GGj-Iz-EnQ"/>
-                                <exclude reference="xkx-fp-tKD"/>
                                 <exclude reference="Adg-7d-JGN"/>
                                 <exclude reference="BLa-f0-vOZ"/>
                                 <exclude reference="Ht5-s3-ywW"/>
@@ -230,16 +204,12 @@
                                 <exclude reference="t04-6P-4It"/>
                                 <exclude reference="bgZ-Bo-VoL"/>
                                 <exclude reference="k3b-FY-hQr"/>
+                                <exclude reference="GGj-Iz-EnQ"/>
+                                <exclude reference="xkx-fp-tKD"/>
                                 <exclude reference="KBw-zy-VSe"/>
                                 <exclude reference="jDt-np-PK7"/>
                                 <exclude reference="uvZ-0a-mJw"/>
                                 <exclude reference="yDX-h4-QDC"/>
-                                <exclude reference="pow-Ro-Pcy"/>
-                                <exclude reference="sef-sM-mjb"/>
-                                <exclude reference="z1v-l5-Iae"/>
-                                <exclude reference="KoN-r2-bHf"/>
-                                <exclude reference="LXH-0b-tbI"/>
-                                <exclude reference="VcP-bH-wJ0"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -257,15 +227,19 @@
                                 <include reference="ujT-jh-Ibo"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="VcP-bH-wJ0"/>
+                                <include reference="pow-Ro-Pcy"/>
+                                <include reference="sef-sM-mjb"/>
+                                <include reference="z1v-l5-Iae"/>
                                 <include reference="UX5-GL-U31"/>
+                                <include reference="KoN-r2-bHf"/>
+                                <include reference="LXH-0b-tbI"/>
                                 <include reference="3q2-1c-Lg1"/>
                                 <include reference="JZr-xd-NQI"/>
                                 <include reference="WDp-vI-7QS"/>
                                 <include reference="fJh-l3-Kte"/>
                                 <include reference="hzr-OT-3q1"/>
                                 <include reference="dHF-jZ-fWh"/>
-                                <include reference="GGj-Iz-EnQ"/>
-                                <include reference="xkx-fp-tKD"/>
                                 <include reference="Adg-7d-JGN"/>
                                 <include reference="BLa-f0-vOZ"/>
                                 <include reference="Ht5-s3-ywW"/>
@@ -273,16 +247,12 @@
                                 <include reference="t04-6P-4It"/>
                                 <include reference="bgZ-Bo-VoL"/>
                                 <include reference="k3b-FY-hQr"/>
+                                <include reference="GGj-Iz-EnQ"/>
+                                <include reference="xkx-fp-tKD"/>
                                 <include reference="KBw-zy-VSe"/>
                                 <include reference="jDt-np-PK7"/>
                                 <include reference="uvZ-0a-mJw"/>
                                 <include reference="yDX-h4-QDC"/>
-                                <include reference="pow-Ro-Pcy"/>
-                                <include reference="sef-sM-mjb"/>
-                                <include reference="z1v-l5-Iae"/>
-                                <include reference="KoN-r2-bHf"/>
-                                <include reference="LXH-0b-tbI"/>
-                                <include reference="VcP-bH-wJ0"/>
                             </mask>
                         </variation>
                     </view>
