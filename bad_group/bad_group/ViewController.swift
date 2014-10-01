@@ -12,10 +12,10 @@ class ViewController: UIViewController {
 
     @IBAction func crashIt(sender: AnyObject) {
         
-        let badIndex = 3
-        let anArray = [3.4, 2.5, 6.9]
+        let badIndex = 7
+        var anArray = [0.25, 11.003, -2.14, 0.14, 20001.3, -0.000001, -10.0]
         
-        let noSuchValue = anArray[badIndex]
+        anArray[badIndex] = 45.9
     }
     override func viewDidLoad() {
         super.viewDidLoad()
